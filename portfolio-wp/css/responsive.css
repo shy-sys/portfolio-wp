@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px) {
+/* header */
+#header .site-title {
+    padding: 20px 16px;
+    line-height: 1px;
+}
+#navi {
+    overflow-x: scroll;     /* 横スクロールを表示 */
+}
+/* pickup */
+#pickup {
+    flex-direction: column;
+    padding-top: 140px;
+}
+#pickup article {
+    width: 100%;
+    margin-bottom: 30px;
+}
+/* container */
+#container {
+    flex-direction: column;
+}
+main {
+    width: 100%;
+}
+/* aside */
+#sidebar {
+    width: 100%;
+    padding: 0;
+}
+/* footer */
+#footer .content {
+    flex-direction: column;
+}
+#footer .item {
+    width: 100%;
+    margin-bottom: 30px;
+}
+}
